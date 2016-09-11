@@ -6,19 +6,18 @@ var Jobs = React.createClass({
     }
   },
 
-	handleClick() {
+  handleClick() {
     console.log(111);
   },
 
   componentDidMount: function() {
     var th = this;
     this.serverRequest =
-      axios.get(this.props.source)
-        .then(function(result) {
-          th.setState({
-            jobs: result.data.work
-          });
-        })
+      axios.get(this.props.source).then(function(result) {
+        th.setState({
+          jobs: result.data.work
+        });
+      })
   },
 
   componentWillUnmount: function() {
