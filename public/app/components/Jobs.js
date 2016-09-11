@@ -26,7 +26,7 @@ var Jobs = React.createClass({
   },
 
   render: function() {
-		var hh = this.handleClick;
+    var hh = this.handleClick;
     return (
 			<div className="row">
 				<div className="col-xs-12">
