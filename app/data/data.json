@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Tony Hawley",
+    "label": "Senior Full Stack Developer",
+    "picture": "",
+    "email": "tony@tamedo.com",
+    "phone": "123456789",
+    "website": "https://tonyhawley.com",
+    "summary": "A multi disciplined full stack developer with over 10 years experience building websites, applications and content management solutions.  I specialise in Front-end HTML/CSS/JS, Back-end PHP/MySQL, WordPress & Laravel development.  I have worked with a vast array of clients including: British Airways, Microsoft, FIFA, Coca-Cola, UPS, London Stock Exchange, American Express, Panasonic, BlackBerry, Sony and International Olympic Committee.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "neutralthoughts",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "dandymusicnl",
+        "url": "https://soundcloud.com/dandymusicnl"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "dandymusicnl",
+        "url": "https://soundcloud.com/dandymusicnl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Pied Piper",
+      "position": "CEO/President",
+      "website": "https://piedpiper.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": []
+    },
+    {
+      "company": "WS",
+      "position": "Lead dev",
+      "website": "",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
