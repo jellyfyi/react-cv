@@ -6,7 +6,7 @@
     "email": "tony@tamedo.com",
     "phone": "123456789",
     "website": "https://tonyhawley.com",
-    "summary": "A multi disciplined full stack developer with over 10 years experience building websites, applications and content management solutions.  I specialise in Front-end HTML/CSS/JS, Back-end PHP/MySQL, WordPress & Laravel development.  I have worked with a vast array of clients including: British Airways, Microsoft, FIFA, Coca-Cola, UPS, London Stock Exchange, American Express, Panasonic, BlackBerry, Sony and International Olympic Committee.",
+    "summary": "<p>A multi disciplined full stack developer with over 10 years experience building websites, applications and content management solutions.</p><p>I specialise in Front-end HTML/CSS/JS, Back-end PHP/MySQL, WordPress & Laravel development.</p><p>I have worked with a vast array of clients including: British Airways, Microsoft, FIFA, Coca-Cola, UPS, London Stock Exchange, American Express, Panasonic, BlackBerry, Sony and International Olympic Committee.</p>",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -37,19 +37,39 @@
       "company": "Pied Piper",
       "position": "CEO/President",
       "website": "https://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
+      "startDate": "January 2015",
+      "endDate": "February 2015",
       "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": []
+      "highlights": [
+        {
+          "summary": "Web Development"
+        },
+        {
+          "summary": "Web Development"
+        },
+        {
+          "summary": "Web Development"
+        }
+      ]
     },
     {
       "company": "WS",
       "position": "Lead dev",
       "website": "",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
+      "startDate": "January 2015",
+      "endDate": "February 2015",
       "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": []
+      "highlights": [
+        {
+          "summary": "Web Development"
+        },
+        {
+          "summary": "Web Development"
+        },
+        {
+          "summary": "Web Development"
+        }
+      ]
     }
   ],
   "volunteer": [],

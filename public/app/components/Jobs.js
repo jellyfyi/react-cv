@@ -11,13 +11,11 @@ var Jobs = React.createClass({
   },
 
   componentDidMount: function() {
-    var th = this;
-    this.serverRequest =
-      axios.get(this.props.source).then(function(result) {
-        th.setState({
-          jobs: result.data.work
-        });
-      })
+    this.serverRequest = $.get(this.props.source, function (result) {
+      this.setState({
+        jobs: result.work
+      });
+    }.bind(this));
   },
 
   componentWillUnmount: function() {
@@ -26,6 +24,7 @@ var Jobs = React.createClass({
 
   render: function() {
     var hh = this.handleClick;
+    var ts = this.state;
     return (
     <div className="row">
       <div className="col-xs-12">
@@ -38,10 +37,12 @@ var Jobs = React.createClass({
         return (
           <div className="item-job" onClick={hh}>
             <h3>{job.company}</h3>
+            <p>{job.summary}</p>
             <ul>
-              <li>{job.summary}</li>
+              {job.highlights.map(function(highlight) {
+              <li>ewdewdewdwe</li>
+              })}
             </ul>
-            <p><i><small>HTML, CSS, Javascript, Jquery, Wordpress, PHP</small></i></p>
           </div>
         );
       })}
